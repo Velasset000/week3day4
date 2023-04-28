@@ -1,0 +1,130 @@
+html, h1, h2, h3, p, body, head {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-family: 'Roboto', sans-serif;
+}
+p {
+    font-family: 'Inter', sans-serif;
+} 
+
+header {
+    display: flex;
+    height: 70px;
+    margin: 0 100px 0 100px;
+    font-size: 20px;
+    border-bottom: 1px solid white;
+    color: white;
+    filter: brightness(100%);
+}
+#title {
+    padding: 35px 0 2px 0;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+#navContainer {
+    width: 2000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+#navContainer p {
+    padding: 35px 0px 2px 20px;
+}
+body {
+    background: rgba(0,0,0,0.7)url(images/veggies2.jpg) no-repeat;
+    background-blend-mode: darken;
+}
+h1 {
+    color: white;
+    width: fit-content;
+    font-size: 125px;
+    margin: 300px auto 20px auto;
+    border-bottom: 1px solid white;
+    
+}
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+    font-weight: 1;
+    font-family: 'Inter', sans-serif;
+}
+#bread {
+    height: 500px;
+    width: 675px;
+    margin-top: 475px;
+    justify-content: flex-start;
+}
+.breadtext {
+    margin-top: 475px;
+    width: 680px;
+    padding: 25px, 10px, 10px, 10;
+    font-size: 45px;
+    background-color: black;
+    flex-grow: 2;
+}
+#breadcontainer {
+    display: flex;
+}
+.breadtext h3 {
+    padding: 120px 0 5px 75px;
+    text-align: left;
+}
+.breadtext p {
+    padding: 50px 0 5px 75px;
+    text-align: left;
+    font-size: 35px;
+    font-weight: 100;
+}
+#pine {
+    width: 675px;
+    height: 500px;
+    display: flex;
+}
+.pinetext p {
+    padding: 50px 0 5px 75px;
+    text-align: left;
+    font-size: 35px;
+    font-weight: 100;
+}
+#pinecontainer {
+    display: flex;
+}
+.pinetext {
+    width: 680px;
+    padding: 25px, 10px, 10px, 10;
+    font-size: 45px;
+    background-color: #101010;
+    flex-grow: 2;
+}
+.pinetext h3 {
+    padding: 120px 0 5px 75px;
+    text-align: left;
+}
+#pasta {
+    height: 500px;
+    width: 675px;
+    justify-content: flex-start;
+}
+.pastatext {
+    width: 680px;
+    padding: 25px, 10px, 10px, 10;
+    font-size: 45px;
+    background-color: #202020;
+    flex-grow: 2;
+}
+#pastacontainer {
+    display: flex;
+}
+.pastatext h3 {
+    padding: 120px 0 5px 75px;
+    text-align: left;
+}
+.pastatext p {
+    padding: 50px 0 5px 75px;
+    text-align: left;
+    font-size: 35px;
+    font-weight: 100;
+}
